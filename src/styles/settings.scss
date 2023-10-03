@@ -1,10 +1,19 @@
-/**
- * src/styles/settings.scss
- *
- * Configures SASS variables and Vuetify overwrites
- */
+@import '../../node_modules/vuetify/settings';
+@import '../../node_modules/vuetify/styles';
+@import '../../node_modules/vuetify/tools';
 
-// https://vuetifyjs.com/features/sass-variables/`
-// @use 'vuetify/settings' with (
-//   $color-pack: false
-// );
+.invisible {
+  visibility: hidden;
+}
+.clickable {
+  cursor: pointer !important;
+}
+.max-4 {
+  max-width: 400px;
+}
+.max-6 {
+  max-width: 600px;
+}
+.max-8 {
+  max-width: 800px;
+}
